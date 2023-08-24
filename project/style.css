@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #eee;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+ll
+header {
+    position: relative;
+    height: 35vh;
+    border-bottom: 7px solid #eee;
+}
+
+
+
+main {
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+   width: 52rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.right {
+    width: 52rem;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.number {
+    background: #eee;
+    color: #333;
+    font-size: 6rem;
+    width: 15rem;
+    text-align: center;
+    padding: 3rem 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.between {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.again {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.guess {
+
+}
+
+
+
+
+.label-score {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.label-highscore {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.btn {
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+}
+
+.guess {
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+}
+
+button {
+    margin: 0 0.5rem;
+}
+
+
+.message {
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+
